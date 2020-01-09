@@ -6,11 +6,11 @@ var mysql = require('mysql');
 
 var config;
 config = {
-    mysql_pool : mysql.createPool({
-        host     : 'localhost',
-        user     : 'root',
-        database : 'chat'
-    })
+  mysqlPool: mysql.createPool({
+    host: 'localhost',
+    user: 'root',
+    database: 'chat'
+  })
 };
 module.exports = config;
 

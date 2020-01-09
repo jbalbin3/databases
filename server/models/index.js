@@ -1,4 +1,4 @@
-var db = require('../db').mysql_pool;
+var db = require('../db').mysqlPool;
 
 module.exports = {
   messages: {
