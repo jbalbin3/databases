@@ -9,7 +9,8 @@ config = {
   mysqlPool: mysql.createPool({
     host: 'localhost',
     user: 'root',
-    database: 'chat'
+    database: 'chat',
+    multipleStatements: true
   })
 };
 module.exports = config;

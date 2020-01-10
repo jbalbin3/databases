@@ -1,9 +1,11 @@
 var express = require('express');
 var db = require('./db');
 
+
 // Middleware
 var morgan = require('morgan');
 var parser = require('body-parser');
+var cors = require('cors');
 
 // Router
 var router = require('./routes.js');
@@ -17,6 +19,7 @@ app.set('port', 3300);
 // Logging and parsing
 app.use(morgan('dev'));
 app.use(parser.json());
+app.use(cors());
 
 // Set up our routes
 app.use(router);

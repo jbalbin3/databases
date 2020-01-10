@@ -1,0 +1,7 @@
+{
+  "access-control-allow-origin": "http://localhost:3300",
+  "access-control-allow-methods": "GET, POST, OPTIONS",
+  "access-control-allow-headers": "content-type, origin, accept",
+  "Access-Control-Allow-Credentials" : true,
+  "access-control-max-age": 10
+}
